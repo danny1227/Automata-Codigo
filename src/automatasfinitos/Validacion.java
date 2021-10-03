@@ -15,7 +15,7 @@ public class Validacion {
         
         public static boolean validacionInput(String input){
             boolean flag = true;
-            
+            //test to GitHub
             for (int i = 0; i < input.length() ; i++) {
                 if(Character.isDigit(input.charAt(i))|| Character.isLetter(input.charAt(i))){
                     System.out.println("La cadena es aceptada ~");
